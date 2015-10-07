@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Welcome, explorer! What is your name?")
+var name: String! = readLine()
 
+print("\n\(name) entered a mysterious cave.")
