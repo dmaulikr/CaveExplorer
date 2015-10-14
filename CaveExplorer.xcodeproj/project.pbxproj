@@ -11,6 +11,7 @@
 		52CB9AAE1BCEC29900AA34F2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9AAD1BCEC29900AA34F2 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
 		52CB9AB41BCEC77600AA34F2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9AB31BCEC77600AA34F2 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
 		52CB9AB61BCEC86700AA34F2 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9AB51BCEC86700AA34F2 /* Level.swift */; settings = {ASSET_TAGS = (); }; };
+		52CB9AB81BCED11B00AA34F2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9AB71BCED11B00AA34F2 /* Functions.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		52CB9AAD1BCEC29900AA34F2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		52CB9AB31BCEC77600AA34F2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		52CB9AB51BCEC86700AA34F2 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
+		52CB9AB71BCED11B00AA34F2 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				52CB9AAD1BCEC29900AA34F2 /* Player.swift */,
 				52CB9AB31BCEC77600AA34F2 /* Game.swift */,
 				52CB9AB51BCEC86700AA34F2 /* Level.swift */,
+				52CB9AB71BCED11B00AA34F2 /* Functions.swift */,
 			);
 			path = CaveExplorer;
 			sourceTree = "<group>";
@@ -130,6 +133,7 @@
 				52CB9AAE1BCEC29900AA34F2 /* Player.swift in Sources */,
 				52CB9AB41BCEC77600AA34F2 /* Game.swift in Sources */,
 				52CB9AB61BCEC86700AA34F2 /* Level.swift in Sources */,
+				52CB9AB81BCED11B00AA34F2 /* Functions.swift in Sources */,
 				5256F60B1BC30B4E00FED3FB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
