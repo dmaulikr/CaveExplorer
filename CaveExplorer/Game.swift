@@ -19,4 +19,13 @@ class Game {
         self.levels = levels
     }
 
+    func play() -> Bool {
+        for level in levels {
+            guard level.play(player) else {
+                return false
+            }
+        }
+        return true
+    }
+
 }
