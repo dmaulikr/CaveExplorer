@@ -10,11 +10,14 @@ import Foundation
 
 struct Level {
 
+    let name: String
+
     var player: Player
 
-    private var playBlock: (Player) -> Bool
+    private let playBlock: (Player) -> Bool
 
-    init(player: Player, playBlock: (Player) -> Bool) {
+    init(name: String, player: Player, playBlock: (Player) -> Bool) {
+        self.name = name
         self.player = player
         self.playBlock = playBlock
     }
