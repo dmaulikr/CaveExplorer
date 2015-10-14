@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EEE513386A473D9B99ED5626D6A01F17AFD30232",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD2FB8DE7D16D74493CDF3F444DD35554EFB7EBB" : 0,
+    "EEE513386A473D9B99ED5626D6A01F17AFD30232" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "92F42C17-BCD4-4ABB-A288-3FF9EBAD817E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD2FB8DE7D16D74493CDF3F444DD35554EFB7EBB" : "CaveExplorer\/Lib\/GameLib\/",
+    "EEE513386A473D9B99ED5626D6A01F17AFD30232" : "CaveExplorer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CaveExplorer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CaveExplorer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CCHSCodingClub\/GameLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD2FB8DE7D16D74493CDF3F444DD35554EFB7EBB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CCHSCodingClub\/CaveExplorer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EEE513386A473D9B99ED5626D6A01F17AFD30232"
+    }
+  ]
+}
