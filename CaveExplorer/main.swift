@@ -8,11 +8,14 @@
 
 import Foundation
 
+// Allows typing character by character
+setbuf(stdout, nil)
+
 let game = Game(
     player: {
-        print("What's your name?")
+        type("What's your name?")
         let name = readInput() ?? "Bob"
-        print("Hi \(name), you a boy or girl?")
+        type("Hi \(name), you a boy or girl?")
         let gender: Player.Gender = readInput()?.lowercaseString == "boy" ? .Boy : .Girl
         return Player(name: name, gender: gender)
     }(),
@@ -21,5 +24,5 @@ let game = Game(
 
 while true {
     let success = game.play()
-    print("Game Over! You " + (success ? "won!" : "lost!"))
+    type("Game Over! You " + (success ? "won!" : "lost!"))
 }

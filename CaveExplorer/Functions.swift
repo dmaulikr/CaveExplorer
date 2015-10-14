@@ -21,3 +21,12 @@ func readInput() -> String? {
 func readYN() -> Bool {
     return readInput()?.lowercaseString == "yes"
 }
+
+func type(value: String, speed: Double = 1) {
+    let time = UInt32(50_000 / speed)
+    for character in value.characters {
+        print(character, terminator: "")
+        usleep(time)
+    }
+    print("")
+}
