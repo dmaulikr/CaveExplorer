@@ -14,15 +14,6 @@ class Game {
 
     let levels: [Level]
 
-    init(levels: [Level]) {
-        print("What's your name?")
-        let name = readInput() ?? "Bob"
-        print("Hi \(name), you a boy or girl?")
-        let gender: Player.Gender = readInput()?.lowercaseString == "boy" ? .Boy : .Girl
-        self.player = Player(name: name, gender: gender)
-        self.levels = levels
-    }
-
     init(player: Player, levels: [Level]) {
         self.player = player
         self.levels = levels
