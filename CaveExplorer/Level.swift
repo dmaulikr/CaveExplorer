@@ -12,17 +12,14 @@ struct Level {
 
     let name: String
 
-    var player: Player
-
     private let playBlock: (Player) -> Bool
 
-    init(name: String, player: Player, playBlock: (Player) -> Bool) {
+    init(name: String, playBlock: (Player) -> Bool) {
         self.name = name
-        self.player = player
         self.playBlock = playBlock
     }
 
-    func play() -> Bool {
+    func play(player: Player) -> Bool {
         return playBlock(player)
     }
 
