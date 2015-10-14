@@ -1,0 +1,3 @@
+[submodule "Lib/GameLib"]
+	path = Lib/GameLib
+	url = git@github.com:CCHSCodingClub/GameLib.git
