@@ -14,6 +14,7 @@
 		521D609F1BCEE62500CEC3F5 /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D60991BCEE62500CEC3F5 /* Level.swift */; settings = {ASSET_TAGS = (); }; };
 		521D60A01BCEE62500CEC3F5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D609A1BCEE62500CEC3F5 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
 		521D60A21BCEE6A300CEC3F5 /* Flashlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D60A11BCEE6A300CEC3F5 /* Flashlight.swift */; settings = {ASSET_TAGS = (); }; };
+		521D60A41BCF03BC00CEC3F5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521D60A31BCF03BC00CEC3F5 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
 		5256F60B1BC30B4E00FED3FB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5256F60A1BC30B4E00FED3FB /* main.swift */; };
 		52CB9AB81BCED11B00AA34F2 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9AB71BCED11B00AA34F2 /* Functions.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		521D60991BCEE62500CEC3F5 /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Level.swift; path = GameLib/Level.swift; sourceTree = "<group>"; };
 		521D609A1BCEE62500CEC3F5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = GameLib/Player.swift; sourceTree = "<group>"; };
 		521D60A11BCEE6A300CEC3F5 /* Flashlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flashlight.swift; sourceTree = "<group>"; };
+		521D60A31BCF03BC00CEC3F5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5256F6071BC30B4E00FED3FB /* CaveExplorer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CaveExplorer; sourceTree = BUILT_PRODUCTS_DIR; };
 		5256F60A1BC30B4E00FED3FB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		52CB9AB71BCED11B00AA34F2 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			children = (
 				5256F60A1BC30B4E00FED3FB /* main.swift */,
 				521D60A11BCEE6A300CEC3F5 /* Flashlight.swift */,
+				521D60A31BCF03BC00CEC3F5 /* Extensions.swift */,
 				52CB9AB71BCED11B00AA34F2 /* Functions.swift */,
 			);
 			path = CaveExplorer;
@@ -163,6 +166,7 @@
 				521D609C1BCEE62500CEC3F5 /* Entity.swift in Sources */,
 				521D609B1BCEE62500CEC3F5 /* Enemy.swift in Sources */,
 				52CB9AB81BCED11B00AA34F2 /* Functions.swift in Sources */,
+				521D60A41BCF03BC00CEC3F5 /* Extensions.swift in Sources */,
 				5256F60B1BC30B4E00FED3FB /* main.swift in Sources */,
 				521D609F1BCEE62500CEC3F5 /* Level.swift in Sources */,
 				521D60A21BCEE6A300CEC3F5 /* Flashlight.swift in Sources */,
