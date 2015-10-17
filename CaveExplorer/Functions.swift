@@ -22,7 +22,8 @@ func readYN() -> Bool {
     return readInput()?.lowercaseString == "yes"
 }
 
-func type(value: String, speed: Double = 1) {
+func type(value: Any, speed: Double = 1) {
+    let value = String(value)
     let time = UInt32(50_000 / speed)
     for character in value.characters {
         print(character, terminator: "")
