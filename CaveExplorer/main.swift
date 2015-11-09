@@ -39,11 +39,8 @@ let game = Game(
                 num = Int(readLine() ?? "1") ?? 4
             }
 
-
-
             if num >= 1 && num <= 3 {
                 if num == Int((arc4random() % 3) + 1) {
-//                    type("You got mauled by an angry Dialga!")
                     type("A wild Dialga appeared (omgwtfbbq!)!")
                     if player.luck >= 1.1 {
                         type("You RKO Dialga. Congrats, you can go on!")
@@ -52,7 +49,8 @@ let game = Game(
                         return false
                     }
                 } else {
-                    print("You lucky")
+                    type("You lucky")
+                    type("What's your favorite food?")
                 }
 
             } else {
